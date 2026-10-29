@@ -1,4 +1,4 @@
-# PantryPal 🥫
+# PantryPal
 
 A smart pantry and expiration tracker built with Flutter. Scan groceries, track expiration dates, get reminded before food goes bad, and receive AI-generated recipes that use up what's about to expire.
 
