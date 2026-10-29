@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+
+IconData categoryIcon(String category) => switch (category) {
+      'Produce' => Icons.eco_outlined,
+      'Dairy' => Icons.egg_alt_outlined,
+      'Meat' => Icons.kebab_dining_outlined,
+      'Seafood' => Icons.set_meal_outlined,
+      'PlantProtein' => Icons.spa_outlined,
+      'Deli' => Icons.takeout_dining_outlined,
+      'Bakery' => Icons.bakery_dining_outlined,
+      'Grains' => Icons.rice_bowl_outlined,
+      'Baking' => Icons.cake_outlined,
+      'Canned' => Icons.soup_kitchen_outlined,
+      'Condiments' => Icons.water_drop_outlined,
+      'Spices' => Icons.grain,
+      'Spreads' => Icons.breakfast_dining_outlined,
+      'Snacks' => Icons.cookie_outlined,
+      'Pantry' => Icons.inventory_2_outlined,
+      'Frozen' => Icons.ac_unit,
+      'Beverage' => Icons.local_drink_outlined,
+      'Alcohol' => Icons.wine_bar_outlined,
+      'Baby' => Icons.child_care_outlined,
+      'Pet' => Icons.pets_outlined,
+      'Household' => Icons.cleaning_services_outlined,
+      _ => Icons.category_outlined,
+    };

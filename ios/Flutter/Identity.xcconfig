@@ -1,0 +1,20 @@
+// PantryPal's app identity — the single place to change it (or run tools/set_identity.py).
+// Used by every target through the project-level build configuration.
+//
+// PANTRYPAL_BUNDLE_ID   Must be unique on Apple's side. If Xcode says the identifier is not
+//                       available, pick your own reverse-DNS id (e.g. com.yourname.pantrypal).
+// PANTRYPAL_APP_GROUP   Shared container for the app and its home-screen widget; conventionally
+//                       "group." + bundle id. Must match HomeWidgetService.appGroupId in Dart.
+// DEVELOPMENT_TEAM      Your Apple team ID (Xcode → Settings → Accounts), needed to run on a device.
+PANTRYPAL_BUNDLE_ID = com.nathanielstein.pantrypal
+PANTRYPAL_APP_GROUP = group.com.nathanielstein.pantrypal
+DEVELOPMENT_TEAM =
+
+// App Group entitlements. A free Apple ID ("Personal Team") cannot use App Groups: run
+// `tools/set_identity.py --free-account` to blank these. The app then works fully except the
+// home-screen widget, which can't read pantry data without the shared container.
+PANTRYPAL_RUNNER_ENTITLEMENTS = 
+PANTRYPAL_WIDGET_ENTITLEMENTS = 
+
+// Lets the extension's Info.plist use the app's version (FLUTTER_BUILD_NAME / NUMBER).
+#include? "Generated.xcconfig"

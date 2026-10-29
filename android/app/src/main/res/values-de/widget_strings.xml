@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_name">PantryPal</string>
+    <string name="widget_description">Was zuerst aufgebraucht werden sollte</string>
+    <string name="widget_open_app">Öffne PantryPal, um deinen Vorrat zu laden</string>
+</resources>

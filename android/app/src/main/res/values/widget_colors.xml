@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget colours; every text colour is at least 4.5:1 on its background (tools/palette.py). -->
+<resources>
+    <color name="widget_text">#FF1B1C1B</color>
+    <color name="widget_muted">#FF5F6560</color>
+    <color name="widget_accent">#FF256B2B</color>
+    <color name="widget_expired">#FFC62828</color>
+    <color name="widget_soon">#FFB45309</color>
+    <color name="widget_fresh">#FF2E7D32</color>
+</resources>

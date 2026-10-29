@@ -1,0 +1,707 @@
+{
+  "appTitle": "PantryPal",
+  "aiLanguage": "English",
+  "@aiLanguage": {
+    "description": "Language name in English, sent to the AI so names, recipes and steps come back in this language."
+  },
+  "navPantry": "Pantry",
+  "navRecipes": "Recipes",
+  "navShopping": "Shopping",
+  "settings": "Settings",
+  "cancel": "Cancel",
+  "add": "Add",
+  "back": "Back",
+  "tryAgain": "Try again",
+  "undo": "Undo",
+  "remove": "Remove",
+  "edit": "Edit",
+  "delete": "Delete",
+  "review": "Review",
+  "catProduce": "Fruit & veg",
+  "catDairy": "Dairy & eggs",
+  "catMeat": "Meat & poultry",
+  "catPantry": "Pantry staples",
+  "catFrozen": "Frozen",
+  "catBakery": "Bread & bakery",
+  "catBeverage": "Drinks",
+  "catOther": "Other",
+  "unitPieces": "pcs",
+  "@unitPieces": {
+    "description": "Short picker label for counted items (pieces)."
+  },
+  "statusExpired": "Expired",
+  "statusSoon": "Use soon",
+  "statusFresh": "Fresh",
+  "statusUndated": "No date",
+  "searchHint": "Search your pantry",
+  "clearSearch": "Clear search",
+  "filterAll": "All",
+  "noMatches": "No items match.",
+  "clearFilters": "Clear filters",
+  "emptyPantry": "Your pantry is empty.\nTap Scan to add a grocery.",
+  "emptyPantryHint": "Scan a barcode, snap a photo, or import a whole receipt.",
+  "scan": "Scan",
+  "removedItem": "Removed {name}",
+  "@removedItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "expiresOn": "Expires {date}",
+  "@expiresOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "expiredOn": "Expired {date}",
+  "@expiredOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "expiresToday": "Expires today",
+  "noExpiryDate": "No expiry date",
+  "usedOne": "Used one",
+  "leftAfterThis": "{amount} left after this",
+  "@leftAfterThis": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "removesFromPantry": "Removes it from the pantry",
+  "usedSome": "Used some…",
+  "amountLeft": "{amount} left",
+  "@amountLeft": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "addToShoppingList": "Add to shopping list",
+  "alreadyOnList": "{name} is already on your list",
+  "@alreadyOnList": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToList": "Added {name} to your list",
+  "@addedToList": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "badgeNoDate": "no date",
+  "badgeAgo": "d ago",
+  "badgeToday": "today",
+  "badgeDays": "{count, plural, =1{day} other{days}}",
+  "@badgeDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "expiresInDays": "{count, plural, =1{Expires in 1 day} other{Expires in {count} days}}",
+  "@expiresInDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "expiredDaysAgo": "{count, plural, =1{Expired 1 day ago} other{Expired {count} days ago}}",
+  "@expiredDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addToPantry": "Add to pantry",
+  "sourceCamera": "Camera",
+  "sourcePhotos": "Photos",
+  "oneItem": "One item",
+  "severalAtOnce": "Several at once",
+  "modeBarcode": "Barcode",
+  "modeBarcodeDesc": "Look up one product by its barcode",
+  "modeDateLabel": "Date label",
+  "modeDateLabelDesc": "Read a printed expiry date (stays on your phone)",
+  "modeManual": "Type it in",
+  "modeManualDesc": "Enter the details yourself",
+  "modeBarcodeRun": "Barcode run",
+  "modeBarcodeRunDesc": "Scan product after product, review once at the end",
+  "modeReceipt": "Receipt",
+  "modeReceiptDesc": "Import every food item from a grocery receipt",
+  "reviewScanned": "Review scanned items",
+  "reviewReceipt": "Review receipt",
+  "addedToPantry": "{count, plural, =1{Added 1 item to your pantry} other{Added {count} items to your pantry}}",
+  "@addedToPantry": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectAll": "Select all",
+  "selectNone": "Select none",
+  "scanReadError": "Couldn't read that scan.",
+  "readingScan": "Reading your scan…",
+  "readingScanHint": "This can take a few seconds.",
+  "noFoodFound": "No food items found.",
+  "noFoodFoundHint": "Try a sharper, well-lit photo, or add items one at a time.",
+  "foundIntro": "Found {count}. Fix anything that looks off and untick what you don't want.",
+  "@foundIntro": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemNameHint": "Item name",
+  "barcodeHelper": "Barcode {code}",
+  "@barcodeHelper": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "notFoundTypeName": "Not found — type a name",
+  "removeFromList": "Remove from list",
+  "addDate": "Add date",
+  "estimatedDate": "{date} (est.)",
+  "@estimatedDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addItemsButton": "{count, plural, =1{Add 1 item to pantry} other{Add {count} items to pantry}}",
+  "@addItemsButton": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "less": "Less",
+  "more": "More",
+  "addItem": "Add item",
+  "editItem": "Edit item",
+  "fillAutomatically": "Fill in automatically",
+  "scanDate": "Scan date",
+  "fieldName": "Name",
+  "fieldCategory": "Category",
+  "fieldQuantity": "Quantity",
+  "setExpiry": "Set expiration date",
+  "clearDate": "Clear date",
+  "quick3Days": "+3 days",
+  "quick1Week": "+1 week",
+  "quick2Weeks": "+2 weeks",
+  "quick1Month": "+1 month",
+  "saveToPantry": "Save to pantry",
+  "saveChanges": "Save changes",
+  "nameFirst": "Give the item a name first.",
+  "foundFromBarcode": "Found “{name}” from its barcode.",
+  "@foundFromBarcode": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "readDate": "Read the date {date} from the label.",
+  "@readDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "failed": "Failed: {error}",
+  "@failed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "scanBarcode": "Scan barcode",
+  "torchOn": "Torch on",
+  "torchOff": "Torch off",
+  "typeCode": "Type a code",
+  "enterBarcode": "Enter barcode",
+  "barcodeDigitsHint": "Digits under the barcode",
+  "runInstructions": "Scan each product in turn. Scanning one again adds another of it.",
+  "singleInstructions": "Line up the barcode inside the frame.",
+  "nothingScanned": "Nothing scanned yet",
+  "scannedSummary": "{total} scanned · {products} products",
+  "@scannedSummary": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "products": {
+        "type": "int"
+      }
+    }
+  },
+  "useItUp": "Use it up",
+  "recipesEmpty": "Add some items to your pantry to get recipe ideas.",
+  "newIdeas": "New ideas",
+  "alreadyOnShoppingList": "Already on your shopping list",
+  "addedNToList": "Added {count} to your shopping list",
+  "@addedNToList": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingList": "Shopping list",
+  "toPantry": "To pantry",
+  "listEmpty": "Your list is empty.",
+  "addItemHint": "Add item",
+  "movedToPantry": "{count, plural, =1{Moved 1 to your pantry} other{Moved {count} to your pantry}}",
+  "@movedToPantry": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "remindersHeader": "Reminders",
+  "remindBefore": "Remind me before expiry",
+  "dayCount": "{count, plural, =1{1 day} other{{count} days}}",
+  "@dayCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeOfDay": "Time of day",
+  "rescheduleNote": "Changing these reschedules reminders for every item with an expiry date.",
+  "yourData": "Your data",
+  "exportBackup": "Export backup",
+  "exportBackupDesc": "Pantry, shopping list, reminder settings and remembered products as a JSON file",
+  "importBackup": "Import backup",
+  "importBackupDesc": "Restore from a PantryPal backup file",
+  "backupNote": "Backups stay on your device until you choose where to send them.",
+  "exportFailed": "Export failed: {error}",
+  "@exportFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "openFileFailed": "Could not open the file: {error}",
+  "@openFileFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "backupNotJson": "That file isn't valid JSON.",
+  "backupNotPantryPal": "That file isn't a PantryPal backup.",
+  "backupTooNew": "This backup was made by a newer version of PantryPal. Update the app first.",
+  "restoreTitle": "Restore backup?",
+  "pantryItemCount": "{count, plural, =1{1 pantry item} other{{count} pantry items}}",
+  "@pantryItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shoppingItemCount": "{count, plural, =1{1 shopping item} other{{count} shopping items}}",
+  "@shoppingItemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "restoreSummary": "This backup has {pantry} and {shopping}.",
+  "@restoreSummary": {
+    "placeholders": {
+      "pantry": {
+        "type": "String"
+      },
+      "shopping": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreSummaryDated": "This backup from {date} has {pantry} and {shopping}.",
+  "@restoreSummaryDated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "pantry": {
+        "type": "String"
+      },
+      "shopping": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreExplain": "Replace wipes what's on this phone first and restores reminder settings. Merge adds the backup to what you have.",
+  "merge": "Merge",
+  "replace": "Replace",
+  "restoredSummary": "Restored {pantry} pantry and {shopping} shopping items",
+  "@restoredSummary": {
+    "placeholders": {
+      "pantry": {
+        "type": "int"
+      },
+      "shopping": {
+        "type": "int"
+      }
+    }
+  },
+  "useAmountTitle": "How much {name} did you use?",
+  "@useAmountTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "youHave": "You have {amount}.",
+  "@youHave": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "useAll": "All",
+  "use": "Use",
+  "notifTitle": "{name} expires soon",
+  "@notifTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBody": "{count, plural, =1{Expires in 1 day — tap for recipe ideas.} other{Expires in {count} days — tap for recipe ideas.}}",
+  "@notifBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifChannel": "Expiry reminders",
+  "widgetEmpty": "Nothing expiring in the next 2 weeks",
+  "widgetDaysLeft": "{count, plural, =0{today} =1{1 day} other{{count} days}}",
+  "widgetExpired": "expired",
+  "@widgetEmpty": {
+    "description": "Home-screen widget text when no item expires within 14 days."
+  },
+  "@widgetDaysLeft": {
+    "description": "Home-screen widget: time left for one item.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@widgetExpired": {
+    "description": "Home-screen widget: shown instead of days for an expired item."
+  },
+  "languageHeader": "Language",
+  "appLanguage": "App language",
+  "languageSystem": "System default",
+  "@languageSystem": {
+    "description": "Language picker option: follow the phone's language."
+  },
+  "barcodeRemembered": "Recognized “{name}” from your earlier scans.",
+  "barcodeNotFoundLearn": "Barcode {code} isn't in the product database. Name it once and PantryPal will remember it.",
+  "addExpiryNow": "Add the date from the label",
+  "otherDatesFound": "Dates found on the label:",
+  "endOfMonth": "end of {month}",
+  "usuallyLasts": "{count, plural, =1{Usually 1 day} other{Usually {count} days}}",
+  "estimatedFromHistory": "Estimated from how long this usually lasts for you — check the package.",
+  "saveAndAddAnother": "Save and add another",
+  "savedItem": "Saved {name}",
+  "offlineError": "No connection. Check your internet and try again.",
+  "aiUnavailable": "The AI service isn't reachable right now. Try again, or fill in the details yourself.",
+  "invalidBarcode": "That doesn't look like a valid barcode. Check the digits.",
+  "@barcodeRemembered": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@barcodeNotFoundLearn": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@endOfMonth": {
+    "description": "Best-before printed as month + year only; {month} is e.g. 'Mar 2027'.",
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "@usuallyLasts": {
+    "description": "Quick-date chip using this user's own history for the item.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@savedItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addSeveral": "Add several at once",
+  "quickListTitle": "Add several",
+  "quickListHint": "One item per line, for example:\n2 x milk\nflour 1 kg\neggs 12\nbananas",
+  "quickListEmpty": "Type at least one item.",
+  "reviewList": "Review items",
+  "noDateFoundTitle": "No date found",
+  "noDateFoundBody": "This is what the camera read. Pick the date yourself, or try again closer and in better light.",
+  "nothingReadable": "No text could be read from that photo. Try again closer and in better light.",
+  "pickDate": "Pick date",
+  "barcodeFromPhoto": "Barcode from a photo",
+  "noBarcodeInPhoto": "No barcode found in that photo.",
+  "dateYearAssumed": "{date} (year assumed)",
+  "@dateYearAssumed": {
+    "description": "A date printed without a year (e.g. 15.03.); the next such date was assumed.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "rememberedProducts": "Remembered products",
+  "rememberedProductsDesc": "What PantryPal has learned from your scans",
+  "rememberedCount": "{count, plural, =1{1 remembered product} other{{count} remembered products}}",
+  "noRememberedProducts": "Nothing remembered yet. Products you add are remembered here to make your next scan faster.",
+  "forgetAll": "Forget all",
+  "forgetAllConfirm": "Forget every remembered product and cached barcode lookup? Your pantry isn't affected.",
+  "forgotProduct": "Forgot {name}",
+  "forgetProduct": "Forget",
+  "searchRemembered": "Search remembered products",
+  "@rememberedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@forgotProduct": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "recipesIdeas": "Ideas",
+  "recipesSaved": "Saved",
+  "recipesBuildAround": "Build around",
+  "recipesMore": "More ideas",
+  "recipesNoSaved": "No saved recipes yet. Tap the bookmark on a recipe to keep it.",
+  "recipeMinutes": "{minutes} min",
+  "recipeServings": "{count, plural, =1{1 serving} other{{count} servings}}",
+  "recipeUsesExpiring": "{count, plural, =1{uses 1 expiring item} other{uses {count} expiring items}}",
+  "recipeToBuyCount": "{count, plural, =0{nothing to buy} =1{1 to buy} other{{count} to buy}}",
+  "recipeIngredients": "Ingredients",
+  "recipeSteps": "Steps",
+  "addMissingToList": "Add missing to shopping list",
+  "saveRecipe": "Save recipe",
+  "unsaveRecipe": "Remove from saved",
+  "cookedThis": "I cooked this",
+  "cookSheetTitle": "Update your pantry",
+  "cookSheetHint": "Untick anything you didn't use, and adjust amounts. Amounts the recipe didn't make clear start unticked.",
+  "cookUsesAll": "uses all of it",
+  "cookLeftAfter": "{amount} left afterwards",
+  "updatePantry": "Update pantry",
+  "pantryUpdated": "{count, plural, =1{Updated 1 pantry item} other{Updated {count} pantry items}}",
+  "recipePrefsTitle": "Recipe preferences",
+  "prefsDiet": "Diet",
+  "dietVegetarian": "Vegetarian",
+  "dietVegan": "Vegan",
+  "dietGlutenFree": "Gluten-free",
+  "dietDairyFree": "Dairy-free",
+  "prefsServings": "Servings",
+  "prefsTime": "Time",
+  "prefsAnyTime": "Any",
+  "prefsAvoid": "Leave out",
+  "prefsAvoidHint": "e.g. mushrooms, peanuts",
+  "prefsAllergyNote": "Suggestions are AI-generated and can still include things you asked to leave out. If you have allergies, always check the ingredients.",
+  "prefsApply": "Apply",
+  "@recipeMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@recipeServings": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@recipeUsesExpiring": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@recipeToBuyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@cookLeftAfter": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@pantryUpdated": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dietDairyFree": {
+    "description": "Recipe diet filter: no milk products (not only lactose)."
+  },
+  "catSeafood": "Fish & seafood",
+  "catPlantProtein": "Tofu & plant protein",
+  "catDeli": "Deli & ready meals",
+  "catGrains": "Rice, pasta & grains",
+  "catBaking": "Baking",
+  "catCanned": "Canned & jarred",
+  "catCondiments": "Sauces, oils & condiments",
+  "catSpices": "Spices & seasonings",
+  "catSpreads": "Spreads & sweeteners",
+  "catSnacks": "Snacks & sweets",
+  "catAlcohol": "Beer, wine & spirits",
+  "catBaby": "Baby",
+  "catPet": "Pet supplies",
+  "catHousehold": "Household",
+  "@catPantry": {
+    "description": "Shelf-stable items that fit no more specific category."
+  },
+  "recipesPlan": "Plan",
+  "planIntro": "Plan dinners for the week. Meals that use food expiring soonest come first.",
+  "planMyWeek": "Plan my week",
+  "planHowManyDays": "Plan dinners for",
+  "planFull": "Every day in that range already has a meal.",
+  "weekShopping": "Shopping for the week",
+  "weekShoppingTitle": "To buy for your planned meals",
+  "weekShoppingNone": "You have everything for your planned meals.",
+  "weekShoppingFor": "for {recipes}",
+  "addNToShoppingList": "{count, plural, =1{Add 1 to shopping list} other{Add {count} to shopping list}}",
+  "planToday": "Today",
+  "planTomorrow": "Tomorrow",
+  "planNothing": "Nothing planned",
+  "planSwap": "Swap for another idea",
+  "planRemove": "Remove from plan",
+  "planCooked": "Cooked",
+  "addToPlan": "Add to plan",
+  "planWhichDay": "Which day?",
+  "plannedAdded": "Added to {day}",
+  "@weekShoppingFor": {
+    "placeholders": {
+      "recipes": {
+        "type": "String"
+      }
+    }
+  },
+  "@addNToShoppingList": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@plannedAdded": {
+    "description": "{day} is \"Today\", \"Tomorrow\" or a short date.",
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "appearanceHeader": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "@themeSystem": {
+    "description": "Theme follows the device light/dark setting."
+  },
+  "scanFirstItem": "Scan your first item",
+  "introAddTitle": "Add what you buy",
+  "introAddBody": "Scan a barcode, a receipt or a date label, or just type it. PantryPal remembers products for next time.",
+  "introRemindTitle": "Know what to use first",
+  "introRemindBody": "See what is expiring at a glance, and get a reminder before food goes off.",
+  "introCookTitle": "Cook what you have",
+  "introCookBody": "Get recipe ideas from your pantry, plan the week, and make one shopping list for it.",
+  "introSkip": "Skip",
+  "introNext": "Next",
+  "introStart": "Get started",
+  "introPage": "Page {current} of {total}",
+  "@introPage": {
+    "description": "Screen-reader label for the intro page dots.",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "recipesNoMatch": "No ideas fit your preferences with what you have. Try fewer filters in Recipe preferences, or add a few more items.",
+  "recipesNoMore": "That's every idea for what you have right now.",
+  "onYourList": "On your shopping list",
+  "recipeBasics": "Kitchen basics",
+  "notForMe": "Not for me",
+  "fewerLikeThis": "Got it — fewer ideas like this.",
+  "recipeLearningHeader": "Recipe suggestions",
+  "resetTaste": "Reset what PantryPal has learned",
+  "resetTasteBody": "Suggestions adapt to the dishes you cook, save, plan or turn down. This stays on your phone.",
+  "resetTasteConfirm": "Reset",
+  "resetTasteDone": "Suggestions start fresh."
+}

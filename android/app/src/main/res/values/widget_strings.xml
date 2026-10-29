@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget-picker text and the placeholder shown before the app has published data.
+     Everything else on the widget comes translated from the app (lib/l10n). -->
+<resources>
+    <string name="widget_name">PantryPal</string>
+    <string name="widget_description">What to use up first</string>
+    <string name="widget_open_app">Open PantryPal to load your pantry</string>
+</resources>
